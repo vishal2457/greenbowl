@@ -21,7 +21,7 @@ export const HeroSection = () => {
                 to your table.
               </span>
             </h1>
-            <p className='mt-12 text-gray-700 text-gray-200'>
+            <p className='mt-12 text-gray-200'>
               Get your greenbowls delivered to you everyday with a menu
               carefully crafted with freshest and locally sourced ingredients.
               We are launching soon, join us for an early bird discount.
