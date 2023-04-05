@@ -17,7 +17,7 @@ export const CallToAction = () => {
         Accept: "application/json, text/plain, */*",
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({email}),
+      body: JSON.stringify({ email }),
     }).then((res) => {
       if (res.status === 200) {
         setEmail('')
@@ -29,19 +29,19 @@ export const CallToAction = () => {
     }).catch(err => {
       setbtn('Join Us')
       console.log(err);
-      
+
     })
   };
 
   return (
     <div className="relative">
-  {/* <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
+      {/* <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
     <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 from-blue-700"></div>
     <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 to-indigo-600"></div>
   </div> */}
-  <Container>
-    <div className="relative">
-     {/* <div className="flex items-center justify-center -space-x-2">
+      <Container>
+        <div className="relative">
+          {/* <div className="flex items-center justify-center -space-x-2">
         <img
           loading="lazy"
           width="400"
@@ -83,10 +83,10 @@ export const CallToAction = () => {
           className="h-8 w-8 rounded-full object-cover"
         />
       </div> */}
-      <div className="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
-        <h3 className="text-center text-2xl font-bold text-gray-800 text-white md:text-4xl">Launching soon !</h3>
-     
-        {/* <div className="flex flex-wrap justify-center gap-6">
+          <div className="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
+            <h3 className="text-center text-2xl font-bold text-gray-800 text-white md:text-4xl">Launching soon !</h3>
+
+            {/* <div className="flex flex-wrap justify-center gap-6">
           <input 
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -109,9 +109,9 @@ export const CallToAction = () => {
               >
           </a>
         </div> */}
-      </div>
+          </div>
+        </div>
+      </Container>
     </div>
-  </Container>
-</div>
   )
 }
