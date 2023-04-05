@@ -35,10 +35,10 @@ export const CallToAction = () => {
 
   return (
     <div className="relative">
-  <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
+  {/* <div aria-hidden="true" className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
     <div className="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 from-blue-700"></div>
     <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 to-indigo-600"></div>
-  </div>
+  </div> */}
   <Container>
     <div className="relative">
      {/* <div className="flex items-center justify-center -space-x-2">

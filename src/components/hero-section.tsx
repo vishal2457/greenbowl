@@ -5,13 +5,13 @@ import { Container } from '@/components/layout/Container';
 export const HeroSection = () => {
   return (
     <div className='relative' id='home'>
-      <div
+      {/* <div
         aria-hidden='true'
         className='absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 opacity-20'
       >
         <div className='from-primary h-56 bg-gradient-to-br to-purple-400 blur-[106px] from-blue-700'></div>
         <div className='h-32 bg-gradient-to-r from-cyan-400 to-sky-300 blur-[106px] to-indigo-600'></div>
-      </div>
+      </div> */}
       <Container>
         <div className='relative ml-auto pt-36'>
           <div className='mx-auto text-center lg:w-2/3'>
