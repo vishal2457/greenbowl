@@ -21,7 +21,7 @@ export default function Header() {
         />
          <div className="relative z-20 w-full flex justify-between w-max md:px-0">
           <a href="#home" aria-label="logo" className="flex space-x-2 items-center">
-            <span className="text-2xl font-bold text-gray-900 dark:text-white"
+            <span className="text-2xl font-bold text-gray-900 text-white"
               >greenbowl</span>
           </a>
           </div>
